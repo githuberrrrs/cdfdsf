@@ -1,0 +1,85 @@
+<html lang=es>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ingreso</title>
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.tribet.net/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.tribet.net/css/mdb.min.css">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.tribet.net/css/login-min.css">
+    
+    
+    
+    <link rel="stylesheet" type='text/css' href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/npm/roboto-fontface@0.10.0/css/roboto/roboto-fontface.min.css">
+    
+</head>
+<body class="login-page">
+    <header>
+        <section class="view">
+            <div class="mask rgba-stylish-strong h-100 d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6 col-md-10 col-sm-12 mx-auto">
+                            <div class="card fadeIn">
+                                <div class="card-body">
+                                    <div class="form-header red-gradient">
+                                        <h3 class="font-weight-500 my-2 py-1"><i class="fas fa-user"></i>Ingreso
+                                        </h3>
+                                    </div>
+                                    <div class="md-form">
+                                        <i class="fas fa-user prefix white-text"></i>
+                                        <input type="text" id="user" class="form-control" autocomplete="off" required>
+                                        <label for="user">Nombre de usuario</label>
+                                        <small id="user_format" class="form-text text-muted">
+                                            Su nombre de usuario debe contener entre 4 y 16 caracteres.
+                                        </small>
+                                    </div>
+                                    <div class="md-form">
+                                        <i class="fas fa-lock prefix white-text"></i>
+                                        <input type="password" id="passwd" class="form-control" autocomplete="off" required>
+                                        <label for="passwd">Contraseña</label>
+                                        <small id="passwd_format" class="form-text text-muted">
+                                            Su contraseña debe contener entre 6 y 16 caracteres.
+                                        </small>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="col-12 mt-3 mb-3 text-center" id="error"></div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn red-gradient btn-lg" id="dologin"
+                                            data-loading-text="<i class='fa fa-spinner fa-spin '></i> Ingresar">Ingresar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <script type="text/javascript">
+        document.body.dataset.session_token='8453df9c9c8aa525101ee2c7ae15e3387152abffebf2b7bfcd1f5312aef57afb';document.body.dataset.current_language='es';
+    </script>
+    
+    <script src="https://cdn.tribet.net/js/jquery-3.3.1.min.js"></script>
+    
+    <script src="https://cdn.tribet.net/js/popper.min.js"></script>
+    
+    <script src="https://cdn.tribet.net/js/bootstrap-min.js"></script>
+    
+    <script src="https://cdn.tribet.net/js/mdb-min.js"></script>
+    
+    <script src="https://cdn.tribet.net/js/login-min.js"></script>
+    
+    
+</body>
+</html>
